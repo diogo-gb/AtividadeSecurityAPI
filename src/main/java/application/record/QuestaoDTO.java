@@ -15,4 +15,24 @@ public record QuestaoDTO(long id, String enunciado, List<Opcao> opcao, Categoria
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'questao'");
     }
+
+    public Object getId() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getId'");
+    }
+
+    public void setCategoriaId(long id2) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setCategoriaId'");
+    }
+
+    public void setEnunciado(String enunciado2) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setEnunciado'");
+    }
+
+    public void setId(Object id2) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setId'");
+    }
 }
